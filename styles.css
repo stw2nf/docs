@@ -1,0 +1,36 @@
+/* Increase logo size in navbar */
+a[href="/home/getting-started"] img,
+a[href="/home/getting-started"] svg,
+.navbar-logo img,
+.navbar-logo svg,
+[data-testid="navbar-logo"] img,
+[data-testid="navbar-logo"] svg,
+nav a[href*="getting-started"] img,
+nav a[href*="getting-started"] svg {
+  width: 200px !important;
+  height: auto !important;
+  max-height: 60px !important;
+}
+
+/* Target logo container */
+nav > div:first-child a img,
+nav > div:first-child a svg {
+  width: 200px !important;
+  height: auto !important;
+  max-height: 60px !important;
+}
+
+/* Increase favicon size */
+link[rel="icon"],
+link[rel="shortcut icon"],
+link[rel="apple-touch-icon"] {
+  size: 64px 64px !important;
+}
+
+/* If favicon appears in page */
+img[src*="favicon"],
+svg[data-favicon] {
+  width: 64px !important;
+  height: 64px !important;
+}
+

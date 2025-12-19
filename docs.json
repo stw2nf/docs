@@ -8,6 +8,10 @@
     "dark": "#15803D"
   },
   "favicon": "/favicon.svg",
+  "redirect": "/home/getting-started",
+  "styles": [
+    "/styles.css"
+  ],
   "navigation": {
     "tabs": [
       {
@@ -25,18 +29,28 @@
       },
       {
         "tab": "Platforms",
-        "groups": [
+        "menu": [
           {
-            "group": "PAL Dump",
+            "item": "PAL Dump",
+            "icon": "truck-moving",
             "pages": [
+              "platforms/pal-dump/overview",
+              "platforms/pal-dump/powering-on-off",
               "platforms/pal-dump/dimensions",
+              "platforms/pal-dump/charging",
+              "platforms/pal-dump/safety",
               "platforms/pal-dump/maintenance"
             ]
           },
           {
-            "group": "PAL Flatbed",
+            "item": "PAL Flatbed",
+            "icon": "truck-flatbed",
             "pages": [
+              "platforms/pal-flatbed/overview",
+              "platforms/pal-flatbed/powering-on-off",
               "platforms/pal-flatbed/dimensions",
+              "platforms/pal-flatbed/charging",
+              "platforms/pal-flatbed/safety",
               "platforms/pal-flatbed/maintenance"
             ]
           }
@@ -44,36 +58,48 @@
       },
       {
         "tab": "Accessories",
-        "groups": [
+        "menu": [
           {
-            "group": "Accessories",
+            "item": "RC Controller",
+            "icon": "radio-tuner",
             "pages": [
-              "accessories/index"
+              "accessories/rc-controller/basic-operation"
+            ]
+          },
+          {
+            "item": "Base Station",
+            "icon": "satellite-dish",
+            "pages": [
+              "accessories/base-station/basic-operation"
             ]
           }
         ]
       },
       {
         "tab": "User Interface",
-        "groups": [
+        "menu": [
           {
-            "group": "User Interface",
+            "item": "MavCommander",
+            "icon": "window",
             "pages": [
-              "user-interface/index"
+              "user-interface/overview",
+              "user-interface/manual-control",
+              "user-interface/paths",
+              "user-interface/key-locations",
+              "user-interface/follow"
             ]
           }
         ]
       }
-    ],
-    "global": {
-      "anchors": []
-    }
+    ]
   },
   "logo": {
     "light": "/logo/light.svg",
-    "dark": "/logo/dark.svg"
+    "dark": "/logo/dark.svg",
+    "href": "/home/getting-started"
   },
   "navbar": {
+    "hideMintlify": true,
     "links": [
       {
         "label": "Support",
