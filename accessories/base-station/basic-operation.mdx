@@ -8,7 +8,13 @@ title: "Cyphra Base Station"
 
 <Steps>
   <Step title="Mount and Place Tripod">
-    Mount the Base Station to the Tripod, and extend tripod to maximum height. Ensure that the tripod has a clear, unobstructed view of the horizon, and is not near any large buildings etc.
+    <Frame caption="Base Station mounted and setup">
+      <img src="/images/base-station.jpg" alt="Base Station mounted and setup" />
+    </Frame>
+    Mount the Base Station to the Tripod, and extend tripod to maximum height. The best environment for the base and rover antenna is a clear view of the sky that is 30 degrees above the horizon. Make sure that there are no obstacles around, such as buildings, trees, cars, and etc. 
+    <Danger>Examples of a bad environments: indoors, urban area, forest, near the ground.</Danger>
+    <Check>Examples of a good environments: Open spaces, peak of the mountains, roof of the buildings.</Check>
+    Do not place the antenna near electronic devices, as high power electronic devices nearby may affect the radio frequency noise of GPS signal. Examples are mobile phone base stations, high voltage transformers, and etc. Please place the base station in an outdoor environment with sufficient sky coverage to obtain a good satellite signal.
   </Step>
   <Step title="Power On">
     Insert the battery to the adapter, and power on the Base Station
@@ -16,10 +22,13 @@ title: "Cyphra Base Station"
   </Step>
   <Step title="Do Not Move">
     Once the Base Station is powered on, it is crucial that the unit remains stationary. Moving the Base Station after it has begun operation will reduce accuracy of survey and the resulting correction data.
-    <Note>In typical conditions, the survey should take 2-3mins to complete</Note>
+    <Note>In typical conditions, the survey should take 2-3 minutes to complete</Note>
   </Step>
     <Step title="Validate RTK Fix">
     Connect to a vehicle via the MavCommander UI and validate RTK Fix Status of each vehicle
+    <Frame caption="RTK Status through App UI">
+        <img src="/images/mavcommander-rtk-fix.png" alt="App RTK Status" width="200" />
+    </Frame>
   </Step>
 </Steps>
 
