@@ -61,7 +61,7 @@
         "menu": [
           {
             "item": "RC Controller",
-            "icon": "radio-tuner",
+            "icon": "joystick",
             "pages": [
               "accessories/rc-controller/basic-operation"
             ]
@@ -80,7 +80,7 @@
         "menu": [
           {
             "item": "MavCommander",
-            "icon": "window",
+            "icon": "tablet",
             "pages": [
               "user-interface/overview",
               "user-interface/manual-control",
