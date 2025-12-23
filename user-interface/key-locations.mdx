@@ -3,21 +3,53 @@ title: "Key Locations"
 description: "Managing key locations in MavCommander"
 ---
 
-## Key Locations
+### Saving Key Locations
 
-Define and manage important locations for your PAL platform operations.
+Saving key locations allows for locations to be saved for use with GoTo commands and Paths. Trigger a save location b pressing the button on the homepage. PAL will take a GPS coordinate of the current location. Proceed by naming the location and saving to the locations library.
 
-### Adding Key Locations
+<div style={{ display: "flex", justifyContent: "center", gap: "64px", alignItems: "flex-start" }}>
+    <Frame caption="Trigger Save Location" style={{ padding: 0 }}>
+    <img
+        src="/images/mavcommander-engage-save-location.png"
+        alt="Trigger Save Location"
+        width="200"
+        style={{ display: "block" }}
+    />
+    </Frame>
 
-1. Navigate to locations menu
-2. Set current position
-3. Name and save location
-4. Assign location type
+    <Frame caption="Name Key Location" style={{ padding: 0 }}>
+    <img
+        src="/images/mavcommander-name-saved-location.png"
+        alt="Name Key Location"
+        width="200"
+        style={{ display: "block" }}
+    />
+    </Frame>
+</div>
 
-### Location Types
+### Use GoTo Commands
 
-- Charging stations
-- Loading zones
-- Storage areas
-- Emergency stops
+The saved key locations can now be used in GoTo Commands. Trigger a Goto command by pressing the button on the homepage. Then select the desired key location.
+
+<Note>PAL will navigate directly to the location from its current location</Note>
+
+<div style={{ display: "flex", justifyContent: "center", gap: "64px", alignItems: "flex-start" }}>
+    <Frame caption="Trigger GoTo Command" style={{ padding: 0 }}>
+    <img
+        src="/images/mavcommander-engage-goto.png"
+        alt="Trigger GoTo Command"
+        width="200"
+        style={{ display: "block" }}
+    />
+    </Frame>
+
+    <Frame caption="Select GoTo Location" style={{ padding: 0 }}>
+    <img
+        src="/images/mavcommander-goto-location.png"
+        alt="Select GoTo Location"
+        width="200"
+        style={{ display: "block" }}
+    />
+    </Frame>
+</div>
 

@@ -3,20 +3,51 @@ title: "Paths"
 description: "Creating and managing paths in MavCommander"
 ---
 
-## Paths
+### Recording Paths
 
-Create and manage autonomous paths for your PAL platform.
+Path recording allows for repeatable paths to be saved to the paths library for future use. Engage path recording by pressing the button on the homepage. When the recording is active, the vehicle is taking a GPS coordinate once every second, and saving that to the path. Proceed to send the vehicle on the desired path with manual control or following, then press Stop Recording when complete.
 
-### Creating Paths
+<div style={{ display: "flex", justifyContent: "center", gap: "64px", alignItems: "flex-start" }}>
+    <Frame caption="Trigger Path Recording" style={{ padding: 0 }}>
+    <img
+        src="/images/mavcommander-engage-record-path.png"
+        alt="Trigger Path Recording"
+        width="200"
+        style={{ display: "block" }}
+    />
+    </Frame>
 
-1. Open path planning
-2. Set waypoints
-3. Configure path parameters
-4. Save and execute
+    <Frame caption="Stop Path Recording" style={{ padding: 0 }}>
+    <img
+        src="/images/mavcommander-live-path.png"
+        alt="Stop Path Recording"
+        width="200"
+        style={{ display: "block" }}
+    />
+    </Frame>
+</div>
 
-### Path Management
+### Naming and Using Paths
 
-- Editing paths
-- Saving paths
-- Loading existing paths
+The user will now be prompted to name the recorded path. After it is saved, the path will be accessible by pressing the arrow on the right hand side of the homepage. Paths from the library will appear here, and can be triggered with a simple press.
+
+<div style={{ display: "flex", justifyContent: "center", gap: "64px", alignItems: "flex-start" }}>
+    <Frame caption="Naming the Path" style={{ padding: 0 }}>
+    <img
+        src="/images/mavcommander-name-path.png"
+        alt="Naming the Path"
+        width="200"
+        style={{ display: "block" }}
+    />
+    </Frame>
+
+    <Frame caption="Using Saved Paths" style={{ padding: 0 }}>
+    <img
+        src="/images/mavcommander-path-library.png"
+        alt="Using Saved Paths"
+        width="200"
+        style={{ display: "block" }}
+    />
+    </Frame>
+</div>
 
