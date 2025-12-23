@@ -7,6 +7,8 @@ description: "Follow mode operation in MavCommander"
 
 PALs can be follow control devices, as well as other PALs. Follow Mode is triggered by pressing the Follow Button on the homepage. Then the user selects which asset PAL should follow. Finally, to exit follow mode, simply press the Stop Following Button on the homepage.
 
+<Note>The default follow distance is 10ft behind the lead vehicle when following another PAL.</Note>
+<Warning>When following a control device, PAL is given a waypoint of the control device's  GPS location. The control devices have much less accurate GPS.</Warning>
 <div style={{ display: "flex", justifyContent: "center", gap: "64px", alignItems: "flex-start" }}>
     <Frame caption="Trigger Follow" style={{ padding: 0 }}>
     <img
