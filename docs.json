@@ -21,9 +21,10 @@
             "group": "Home",
             "pages": [
               "home/getting-started",
+              "home/safety",
+              "home/general-maintenance",
               "home/report-issues",
-              "home/contact-information",
-              "home/safety"
+              "home/contact-information"
             ]
           }
         ]
