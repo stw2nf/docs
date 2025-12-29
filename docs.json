@@ -32,27 +32,19 @@
         "tab": "Platforms",
         "menu": [
           {
-            "item": "PAL Dump",
-            "icon": "truck-moving",
-            "pages": [
-              "platforms/pal-dump/overview",
-              "platforms/pal-dump/powering-on-off",
-              "platforms/pal-dump/dimensions",
-              "platforms/pal-dump/charging",
-              "platforms/pal-dump/safety",
-              "platforms/pal-dump/maintenance"
-            ]
-          },
-          {
             "item": "PAL Flatbed",
             "icon": "truck-flatbed",
             "pages": [
               "platforms/pal-flatbed/overview",
-              "platforms/pal-flatbed/powering-on-off",
-              "platforms/pal-flatbed/dimensions",
-              "platforms/pal-flatbed/charging",
-              "platforms/pal-flatbed/safety",
-              "platforms/pal-flatbed/maintenance"
+              "platforms/pal-flatbed/dimensions"
+            ]
+          },
+          {
+            "item": "PAL Dump",
+            "icon": "truck-moving",
+            "pages": [
+              "platforms/pal-dump/overview",
+              "platforms/pal-dump/dimensions"
             ]
           }
         ]
